@@ -1,0 +1,14 @@
+{
+  "name": "9799132f0123afbd",
+  "main": "9799132f0123afbd@198.js",
+  "version": "198.0.0",
+  "homepage": "https://observablehq.com/d/9799132f0123afbd",
+  "author": {
+    "name": "110aem001's Workspace",
+    "url": "https://observablehq.com/@110aem001-ws"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
