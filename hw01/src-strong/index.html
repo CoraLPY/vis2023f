@@ -6,27 +6,12 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <title>Document</title>
 </head>
-<script>
-    var data_array=[]; 
 
-
-// 載入 CSV 檔案
- d3.text("../data.csv").then(function (data) {
-    var parsedCsv = d3.csvParse(data, (d, i, columns) => {
-      d3.autoType(d);
-      var objArg = new Object();
-        objArg.學號 = d.學號;
-        objArg.姓名 = d.姓名;
-        objArg.作業一 = d.作業一;
-      data_array.push(objArg);
-      return d;
-    });
-  
-}); 
-</script>
-<body>
-    <!-- 參考 https://observablehq.com/@d3/histogram  -->
+<body >
+    <!-- D3圖庫參考 https://observablehq.com/@d3/histogram  -->
+    <!-- CODE參考 https://blog.csdn.net/weixin_43325228/article/details/129098767?ops_request_misc=&request_id=&biz_id=102&utm_term=D3%E7%95%AB%E5%BB%8A%20D3.JS&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-2-129098767.142^v96^pc_search_result_base9&spm=1018.2226.3001.4187  -->
     <svg></svg>
+    <h1>作業一分數的Histogram</h1>
     <div></div>
 </body>
 <script src="./strong.js"></script>
