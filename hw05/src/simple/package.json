@@ -1,0 +1,14 @@
+{
+  "name": "688d35b4d4762c3a",
+  "main": "688d35b4d4762c3a@26.js",
+  "version": "26.0.0",
+  "homepage": "https://observablehq.com/d/688d35b4d4762c3a",
+  "author": {
+    "name": "110aem001's Workspace",
+    "url": "https://observablehq.com/@110aem001-ws"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
